@@ -1,0 +1,64 @@
+.ContactUsPageDivOrgParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ContactUsDiv{
+    margin: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.ContactUsDiv>ul{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    list-style-type:none;
+}
+.ContactUsDiv>ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    color: var(--Color);
+    cursor: context-menu;
+
+}
+.ContactUsDiv>ul>li>span{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    color: var(--themeColor);
+    cursor: context-menu;
+
+}
+.ContactUsDiv>h1{
+    color: var(--themeColor);
+    font-size: 2rem;
+    font-family: lemon;
+    cursor: context-menu;
+}
+.ContactUsDiv>ul>li>a>svg{
+    cursor: pointer;
+    color: white ;
+}
+.ContactUsDiv>ul>li>div>svg{
+    cursor: pointer;
+    color: white ;
+}
+@media screen and (max-width:455px) {
+    .ContactUsDiv>h1{
+        font-size: 1rem;
+    }
+    .ContactUsDiv>ul>li{
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+}

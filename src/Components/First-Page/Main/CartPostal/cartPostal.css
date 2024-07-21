@@ -1,0 +1,83 @@
+.CartPostalOrgDivParent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+}
+.CartPostalOrgDivChilde1,
+.CartPostalOrgDivChilde2,
+.CartPostalOrgDivChilde3{
+    padding: 30px;
+    border-radius:15px;
+    margin: 0px 20px;
+    background:linear-gradient( 0deg , var(--backgroundColor) ,var(--themeColor)) ;
+    width: 150px;
+    box-shadow: 0 0 30px var(#333);
+    transition: all 0.3s;
+}
+.CartPostalOrgDivChilde1:hover,
+.CartPostalOrgDivChilde2:hover,
+.CartPostalOrgDivChilde3:hover{
+    transition: all 0.3s;
+    border-radius:20px;
+    box-shadow: 0 0 30px var(--themeColor);
+}
+.CartPostalOrgDivParent>div>h1{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: lemon;
+    text-align: center;
+    cursor: pointer;
+}
+.CartPostalOrgDivParent>div>div{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Kleader;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:775px) {
+.CartPostalOrgDivChilde1,
+.CartPostalOrgDivChilde2,
+.CartPostalOrgDivChilde3{
+    padding: 20px;
+    margin: 0px 10px;
+    width: 120px;
+}
+.CartPostalOrgDivParent>div>h1{
+    font-size: 1.5rem;
+}
+}
+@media screen and (max-width:550px) {
+    .CartPostalOrgDivChilde1,
+    .CartPostalOrgDivChilde2,
+    .CartPostalOrgDivChilde3{
+        padding: 20px;
+        margin: 0px 8px;
+        width: 90px;
+    }
+    .CartPostalOrgDivParent>div>h1{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:445px) {
+    .CartPostalOrgDivParent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -110px;
+    }
+    .CartPostalOrgDivChilde1,
+    .CartPostalOrgDivChilde2,
+    .CartPostalOrgDivChilde3{
+        padding: 30px;
+        margin: 30px 0;
+        width: 150px;
+    }
+    .CartPostalOrgDivParent>div>h1{
+        font-size: 2rem;
+    }
+}

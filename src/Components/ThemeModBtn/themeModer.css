@@ -1,0 +1,39 @@
+#ParentCircleMover{
+    width: 60px;
+    height: 23px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    box-shadow: 0 0 7px var(--themeColor);
+}
+
+#circleMoverThemeModer{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 3px;
+    background-size: 140%;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-top: 0px;
+}
+.ParentCircleMoverThemeModerWhite{
+    background: url(./../../REsrc/image/BackgroundModer/sunP.png);
+    background-size: 130%;
+    margin-top: 0px;
+    margin-left: 37px !important;
+    transition: all 0.3s;
+}
+.ParentCircleMoverThemeModerDark{
+    background: url(./../../REsrc/image/BackgroundModer/moonP.png);
+    transition: all 0.3s;
+    margin-top: -0.5px;
+
+}

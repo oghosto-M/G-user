@@ -1,0 +1,72 @@
+.AboutPageOrgParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AboutPageDivParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.AboutPageAboutUS{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.AboutPageAboutUS>h1,
+.AboutPageAboutWeb>h1
+{
+    color: var(--themeColor);
+    font-size: 2rem;
+    font-family: lemon;
+    margin-top: 100px;
+}
+.AboutPageAboutUS>p,
+.AboutPageAboutWeb>p{
+    color: var(--Color);
+    font-size: 1rem;
+    width: 700px;
+}
+.AboutPageAboutWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.AboutPageworkerUs>ul{
+    color: var(--themeColor);
+}
+.headerNotAnyMore{
+    color: var(--Color);
+    margin-top: 200px;
+    margin-bottom: -200px;
+}
+@media screen and (max-width:725px ) {
+    .AboutPageAboutUS>p,
+.AboutPageAboutWeb>p{
+    width: 400px;
+}
+}
+@media screen and (max-width:445px ) {
+    .AboutPageAboutUS>h1,
+.AboutPageAboutWeb>h1
+{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+    .AboutPageAboutUS>p,
+.AboutPageAboutWeb>p{
+    width: 200px;
+    font-size: 0.9rem;
+}
+.AboutPageDivParent{
+    margin: 50px 0;
+}
+.headerNotAnyMore{
+    margin-top: 150px;
+    margin-bottom: -150px;
+}
+}

@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family:vazir;
+  src: url(./REsrc/font/Vazir.ttf);
+}
+@font-face {
+  font-family:lemon;
+  src: url(./REsrc/font/Lemon\ Shake\ Shake.woff);
+}
+@font-face {
+  font-family:Kleader;
+  src: url(./REsrc/font/Kleader.woff);
+}
+:root{
+  --Color:black;
+  --backgroundColor:white;
+  --themeColor:rgb(0, 255, 76);
+}
+*{
+  font-family: vazir;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: vazir;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--backgroundColor);
+}
+button{
+  border: none;
+  outline: none;
+  font-size:vazir;
+}
+input{
+  border: none;
+  outline: none;
+  font-size:vazir;
+}
+textarea{
+  border: none;
+  outline: none;
+  font-size:vazir;
+}
+input::placeholder{
+  font-size:vazir;
+}
+a{
+  text-decoration: none !important;
+  color: var(--themeColor);
+}
+.IconPublicInWeb{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar{
+  background-color: var(--backgroundColor);
+  width: 4px;
+}
+::-webkit-scrollbar-button{
+  display: none;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--themeColor);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

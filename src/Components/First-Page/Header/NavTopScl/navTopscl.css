@@ -1,0 +1,9 @@
+.NavTopperSCL{
+    width: 0%;
+    height: 3px;
+    background-color: var(--themeColor);
+    position: fixed;
+    margin-top: 0px !important;
+    transition: all 0.7s;
+    z-index: 4;
+}

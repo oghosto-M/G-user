@@ -1,0 +1,450 @@
+.HeaderFirstPageOrg{
+    background: url(./../../../REsrc/image/image-from-rawpixel-id-3282247-jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+}
+.HeaderContainerParent1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height:min-content ;
+}
+.HeaderContainerChilds1,
+.HeaderContainerChilds3
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.HeaderContainerChilds1>a>div,
+.HeaderContainerChilds3>div
+{
+    margin: 5px 5px;
+}
+.HeaderContainerChilds1>a>div>:hover ,
+.HeaderContainerChilds3>div>:hover
+{
+    color: var(--themeColor) !important;
+    transition: all 0.5s;
+}
+.HeaderContainerParent2-activeFix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff16 ;
+    backdrop-filter: blur(15px);
+    height: 90px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    transition: all 0.5s;
+    margin-top: -29px;
+    z-index: 3;
+}
+.HeaderContainerChilds2{
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: context-menu;
+}
+.SpanHeaderContainerChilds2{
+    font-family: lemon;
+    font-size: 0.95rem;
+    color: var(--themeColor);
+    cursor: pointer;
+}
+.imageLogoWebSite{
+    width: 100px;
+    height: 100px;
+}
+.HeaderContainer2Childs1{
+    background: url(./../../../REsrc/image/logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.HeaderContainerParent2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff16 ;
+    backdrop-filter: blur(3px);
+    height: 90px;
+    transition: all 0.5s;
+    z-index: 3;
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+}
+.HeaderContainer2Childs2{
+    width: 70%;
+}
+.HeaderContainer2Childs2>ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.HeaderContainer2Childs2>ul>a>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    margin: 0px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    padding-bottom: 5px;
+    transition: all 0.5s;
+}
+.HeaderContainer2Childs2>ul>a>li:hover{
+    color: var(--themeColor);
+    transition: all 0.5s;
+    border-bottom: 2px solid var(--themeColor);
+}
+.HeaderContainer2Childs2>ul>a>li>:hover{
+    color: var(--themeColor);
+    transition: all 0.5s;
+}
+.HeaderContainer2Childs4{
+    display: none;
+}
+.HeaderContainer2Childs3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderContainer2Childs3>:nth-child(1),
+.HeaderContainer2Childs3>:nth-child(2){
+    margin: 0px 17px;
+}
+.LoginHeaderParentbtn{
+    width:120px;
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: lemon;
+    background-color: var(--themeColor);
+    font-size: 1.15rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.LoginHeaderParentbtn:hover{
+    background-color: var(--themeColor);
+    box-shadow: 0 0 7px var(--themeColor);
+    transition: all 0.5s;
+}
+.iconNavHeader{
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.HeaderContainerParent3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.193);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+.containerTextChilde{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 130px;
+}
+.containerTextHeader{
+    text-align: start;
+    font-family:lemon;
+    font-weight: bold;
+    color: var(--themeColor);
+    font-size: 2rem;
+}
+.containerTextParagraf{
+    text-align: justify;
+    justify-content:auto ;
+    width: 450px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    color: white;
+    line-height: 50px;
+}
+.containerTextBtnGetStarter{
+    width:120px;
+    height: 35px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: lemon;
+    background-color: var(--themeColor);
+    font-size: 1.15rem;
+    margin-top: 30px;
+}
+
+.containerimageChildeImage{
+    width: 700px;
+    margin-left: 100px;
+}
+@media screen and (max-width:425px) {
+    .HeaderContainerChilds2{
+        font-size: 0.7rem;
+    }
+    .SpanHeaderContainerChilds2{
+        font-size: 0.75rem;
+    }
+    .HeaderContainerChilds1>a>div>svg ,
+    .HeaderContainerChilds3>div>svg
+    {
+        width: 17px;
+        height: 17px;
+    }
+}
+@media screen and (max-width:375px) {
+    .HeaderContainerChilds2{
+        font-size: 0.6rem;
+    }
+    .SpanHeaderContainerChilds2{
+        font-size: 0.6rem;
+    }
+    .HeaderContainerChilds1>a>div>svg ,
+    .HeaderContainerChilds3>div>svg
+    {
+        width: 13px;
+        height: 13px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .HeaderContainer2Childs2>ul>a>li{
+        font-size: 0.8rem;
+    }
+    .LoginHeaderParentbtn{
+        width:80px;
+        height: 30px;
+        font-size: 1rem;
+        margin-right: 7px !important;
+    }
+    .HeaderContainer2Childs1{
+        background: url(./../../../REsrc/image/logo.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 50px;
+        margin-top: -10px;
+        margin-left: 7px !important;
+    }
+}
+@media screen and (max-width:900px) {
+    .HeaderContainer2Childs2>ul>a>li{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:736px) {
+    .HeaderContainer2Childs2{
+        display: none;
+    }
+    .HeaderContainer2Childs4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .HeaderContainer2Childs3{
+        justify-content: end;
+        width: 80%;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:340px) {
+    .LoginHeaderParentbtn{
+        display: none;
+    }
+}
+@media screen and (max-width:1525px) {
+    .HeaderContainerParent3{
+        top: 28em;
+        padding: 10px;
+    }
+    .containerTextChilde{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin-right: 100px;
+        margin-left: 150px;
+    }
+    .containerTextHeader{
+        font-size: 1.7rem;
+    }
+    .containerTextParagraf{
+        font-size: 1.1rem;
+        line-height: 40px;
+    }
+    
+    .containerimageChildeImage{
+        width: 550px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1325px) {
+    .HeaderContainerParent3{
+        top: 26em;
+        padding-bottom: 3em;
+    }
+    .containerTextChilde{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+    .containerTextHeader{
+        font-size: 1.4rem;
+    }
+    .containerTextParagraf{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .containerimageChildeImage{
+        width: 470px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .HeaderContainerParent3{
+        flex-direction: column-reverse;
+        top: 30em;
+    }
+    .containerTextChilde{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .containerTextHeader{
+        margin: auto;
+        margin-top: -20px !important;
+        margin-bottom: 30px !important;
+    }
+    .containerTextParagraf{
+        margin-top: -10px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .containerTextBtnGetStarter{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .containerimageChildeImage{
+        margin-bottom: -20px;
+    }
+}
+@media screen and (max-width:520px) {
+    .HeaderContainerParent3{
+        top: 25em;
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+    .containerTextChilde{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .containerTextParagraf{
+        margin-top: 10px;
+        line-height: 25px;
+        width: 300px;
+    }
+    .containerTextHeader{
+        font-size: 1.4rem;
+        margin-top: -5px !important;
+        margin-bottom: 20px !important;
+    }
+    .containerTextParagraf{
+        font-size: 0.8rem;
+    }
+    .containerTextBtnGetStarter{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .containerimageChildeImage{
+        margin-bottom: -20px;
+    }
+    .containerimageChildeImage{
+        width: 300px;
+    }
+}
+@media screen and (max-width:345px) {
+    .containerTextParagraf{
+        width: 200px;
+    }
+    .containerTextHeader{
+        font-size: 1.2rem;
+    }
+    .containerTextParagraf{
+        font-size: 0.75rem;
+    }
+    .containerTextBtnGetStarter{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .containerimageChildeImage{
+        margin-bottom: -20px;
+    }
+    .containerimageChildeImage{
+        width: 250px;
+    }
+}
+@media screen and (max-height:1000px ) {
+    .HeaderFirstPageOrg{
+        height: 140vh;
+    }
+}
+@media screen and (max-height:800px ) {
+    .HeaderFirstPageOrg{
+        height: 150vh;
+    }
+}
+@media screen and (max-height:680px ) {
+    .HeaderFirstPageOrg{
+        height: 180vh;
+    }
+}
+@media screen and (max-height:570px ) {
+    .HeaderFirstPageOrg{
+        height: 180vh;
+    }
+}
+@media screen and (max-height:480px ) {
+    .HeaderFirstPageOrg{
+        height: 200vh;
+    }
+}
+@media screen and (max-height:410px ) {
+    .HeaderFirstPageOrg{
+        height: 260vh;
+    }
+}

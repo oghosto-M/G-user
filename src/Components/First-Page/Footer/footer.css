@@ -1,0 +1,216 @@
+.FooterDivOrgParent{
+    width: 100%;
+    margin-top: 100px;
+    background: url(./../../../REsrc/image/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.FooterDivOrgChildesNavBar>ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.FooterDivOrgChildesNavBar>ul>a>li{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+.FooterDivOrgChildesNavBar>ul>a>li:hover{
+    transition: all 0.5s;
+    color: var(--themeColor);
+}
+.FooterDivOrgChildesComment{
+    color: var(--Color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.FooterDivOrgChildesComment>h1{
+    color: var(--themeColor);
+    font-size: 1.5rem;
+    font-family: lemon;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.textareaParentFooter{
+    resize: none;
+    height: 100px;
+    width: 250px;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    font-size: 0.9rem;
+}
+.textareaParentFooter:focus{
+    transition: all 0.5s;
+    box-shadow: 0 0 10px var(--themeColor);
+}
+.inpFooterComment{
+    padding: 7px;
+    width: 170px;
+    height: 10px;
+    border-radius: 7px;
+    margin: 8px 0px;
+    font-size: 0.9rem;
+}
+.inpFooterComment:focus{
+    transition: all 0.5s;
+    box-shadow: 0 0 20px var(--themeColor);
+}
+.btnFooterComment{
+    font-family: lemon;
+    font-size: 1.2rem;
+    padding: 7px;
+    border-radius:10px;
+    width: 75px;
+    margin: auto;
+    background-color: var(--themeColor);
+    font-weight: bold;
+}
+
+.FooterDivOrgChildesComment,
+.FooterDivOrgChildesNavBar,
+.FooterDivOrgChildesChart{
+    margin: 10px 150px;
+    padding-top: -30px;
+}
+.FooterDivOrgChildesChart>h1{
+    font-family: lemon;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.VersionAndCopyRight{
+    background-color: black;
+    margin-bottom: 0px;
+}
+.MuiChartsLegend-root {
+    display: none;
+}
+.css-1mhcdve-MuiPieArc-root{
+    stroke: rgba(0, 255, 255, 0) !important;
+}
+.VersionAndCopyRight{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+@media screen and (max-width:1335px) {
+    .FooterDivOrgChildesComment,
+.FooterDivOrgChildesNavBar,
+.FooterDivOrgChildesChart{
+    margin: 10px 50px;
+}
+}
+@media screen and (max-width:945px) {
+    .FooterDivOrgChildesComment,
+.FooterDivOrgChildesNavBar,
+.FooterDivOrgChildesChart{
+    margin: 10px 30px;
+}
+}
+@media screen and (max-width:945px) {
+    .css-uguv5e-MuiResponsiveChart-container{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .textareaParentFooter{
+        height: 75px;
+        margin: 5px 0px;
+    }
+    .inpFooterComment{
+        padding: 7px;
+        width: 170px;
+        height: 10px;
+        border-radius: 7px;
+        margin: 3px 0px;
+        font-size: 0.8rem;
+    }
+    .FooterDivOrgParent{
+        height: 400px;
+    }
+}
+@media screen and (max-width:730px) {
+    .FooterDivOrgParent{
+        flex-direction: column-reverse;
+        height:min-content;
+    }
+    .css-uguv5e-MuiResponsiveChart-container{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .textareaParentFooter{
+        height: 75px;
+        margin: 5px 0px;
+    }
+    .inpFooterComment{
+        margin: 3px 0px;
+        font-size: 0.8rem;
+    }
+    .FooterDivOrgChildesNavBar>ul{
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+    }
+    .FooterDivOrgChildesNavBar>ul>a>li{
+        padding: 5px;
+        font-size: 0.9rem;
+        margin: auto;
+        flex-grow: 1;
+    }
+    .FooterDivOrgChildesComment{
+        align-items: center;
+    }
+    .VersionAndCopyRight{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:325px) {
+    .FooterDivOrgParent{
+        flex-direction: column-reverse;
+        height:min-content;
+    }
+    .css-uguv5e-MuiResponsiveChart-container{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .textareaParentFooter{
+        height: 60px;
+        margin: 5px 0px;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    .inpFooterComment{
+        margin: 3px 0px;
+        font-size: 0.8rem;
+    }
+    .FooterDivOrgChildesNavBar>ul>a>li{
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    .FooterDivOrgChildesComment{
+        align-items: center;
+    }
+    .VersionAndCopyRight{
+        font-size: 0.6rem;
+    }
+}
